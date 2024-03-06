@@ -128,9 +128,20 @@
         display: block;
     }
     .intro__text .text {
-        font-size: 24px;
+        font-size: 170%;
+        line-height: 1.8;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* text-decoration: underline; */
+        text-align: center;
+        position: relative;
+        z-index: 100;
+        transition: all 0.5s;
+        cursor: all-scroll;
+        height: 100%;
+        padding-right: 35px;
     }
-}
+}  
 @media (max-width: 320px){
     .intro__title {
         display: none;
