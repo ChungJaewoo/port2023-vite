@@ -33,14 +33,14 @@
     font-family: var(--mainNum-font);
 }
 .skill__desc h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: underline;
     text-underline-position: under;
     margin-bottom: 1vw;
 }
 .skill__desc p {
     margin-bottom: 30vh;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 .site__item .text div {
     display: flex; /* Flexbox 컨테이너로 설정 */
@@ -49,8 +49,8 @@
 }
 
 .site__item .text div img {
-    width: 20%; /* 이미지의 최대 너비를 설정 */
-    margin-right: 20px;
+    width: 17%; /* 이미지의 최대 너비를 설정 */
+    margin-right: 25px;
 }
 
 @media (max-width: 800px){
